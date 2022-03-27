@@ -5,13 +5,29 @@ html, body {
 }
 
 body {
-    font-family:fantasy;
+    font-family: 'Patua One', cursive;
     background-color: gold;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cover{
-    height: 400px;
-    width: 400px;
+/*player*/
+.player{
+    background-color: darkseagreen;
+    max-width: 900px;
+    min-width: 320px;
+    color:white;
+    border-radius: 1rem;
 }
+/*caratula*/
+.cover{
+    
+}
+/* title */
+h1{
+    font-size: 20px;
+}
+
+/* barra de progreso */
+/*controles y los botones*/
+/*list songs */
