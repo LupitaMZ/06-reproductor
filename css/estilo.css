@@ -1,0 +1,13 @@
+* { box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family:fantasy;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
