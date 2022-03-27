@@ -3,25 +3,48 @@
 <head>
     <title>Musical Vibes</title>
     <link  rel="icon"   href="images/iconoAudifono.png" type="image/png" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"><!-- ICONOS -->
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
     <!-- Reproductor -->
     <main class="player">
-    titulo
+
+        <!-- cover/caratula -->
+        <img src="images/caratulas/caratula1.jpg" alt="" class="cover">
+        
+        <!-- titulo -->
     <h1 class="title">Canción nueva</h1>
-   <!--  barra de progreso -->
+        
+    <!--  barra de progreso -->
    <div class="progess-bar">
        <section class="progress"></section>
    </div>
+    
    <!-- controles y los botones -->
    <section class="controls">
-       <button class="play">
-        <i class="fas fa-backward"></i>
-       </button>    
+    <button class="prev">
+        <i class="fas fa-backward"></i><!-- //icono anterior-->
+    </button>    
+    <button class="play">
+        <i class="fa-solid fa-circle-play"></i><!-- //icono play-->
+    </button>
+    <button class="next">
+        <i class="fa-solid fa-forward"></i><!-- //icono siguiente -->
+    </button>        
    </section>
+
+            <!-- list songs -->
+    <ul class="songs">
+        <li><a href="">Songs1</a></li>
+        <li><a href="">Songs2</a></li>
+        <li><a href="">Songs3</a></li>
+    </ul>
+
     </main>   
     <script src="js/main.js"></script>
 </body>
