@@ -1,16 +1,52 @@
-class Music {//clase MusicPlayer para poder hacer mi plantilla
-    //inicializo mis valores
-    constructor(num_list,name,nameSong,albumName,genre,cover) {
-        this,num_list;//numero de la lista
-        this.name = name;// artista
-        this.nameSong=nameSong;// nombre de la cancion
-        this. albumName= albumName;//album
-        this.genre = genre;//genero
-        this.cover = cover;//aqui la imagen
-    }   
-    // Métodos de mi clase
-}
-//iniciando mi clase
+const listaCanciones =[
+{
+    title:"La vida es un carnval",
+    artist:"Celia Cruz",
+    file: "song1.mp3",
+    cover: "caractula1.jfif",
+    duration: "4:38",
+    album: "Celia Cruz and Friends: A Night of Salsa",
+    añoLanzamiento:"1999",
+    genre:"Salsa"
+},
+{    
+    title:"Si tú no bailas conmigo",
+    artist:"Juan Luis Guerra",
+    file:"song2.mp3",
+    cover:"caratula2.jfif",
+    duration:"2:42",
+    album:"La llave de mi Corazón",
+    añoLanzamiento:"2007",
+    genre:"Desconocido"
+},
+{    
+    title:"Más que tú amigo",
+    artist:"Tito Nieves",
+    file:"caratula.jpg",
+    cover:"song3.mp3",
+    duration:"4:12",
+    album:"Canciones clásicas de Marco Antonio Solís",
+    añoLanzamiento:"2007",
+    genre:"Salsa y Tropical"
+},
+{    
+    title:"Vivo pensando en ti",
+    artist:"Felipe Peláez y Maluma",
+    file:"song4.mp3",
+    cover:"caractula4.jfif",
+    duration:"4:05",
+    album:"Ponle actitud",
+    añoLanzamiento:"2017",
+    genre:"Desconocido"
+},
+{    
+    title:"Amor y control",
+    artist:"Rubén Blades",
+    file:"song5.mp3",
+    cover:"caratula5.jfif",
+    duration:"05:49",
+    album:"Una Década",
+    añoLanzamiento:"1992",
+    genre:"Electro"
 
-const song1 = new Music (0,"Celia Cruz","La vida es un Carnaval","Celia Cruz and Friends: A Night of Salsa", "Salsa")
-console.log (song1);
+]
