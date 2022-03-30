@@ -13,16 +13,16 @@
 <body>
     <!-- Reproductor -->
     <main class="player">
-
-        <!-- cover/caratula -->
-        <img src="images/caratulas/caratula1.jpg" alt="" class="cover">
-        
+<h1>Bienvenido/a disfrute de la buena música</h1>
         <!-- titulo -->
-    <h1 class="title">Canción nueva</h1>
-        
+    <h1 class="title" id="title"></h1>
+
+      <!-- cover/caratula -->
+      <img src="images/caratulas/celia1.png" alt="" class="cover">   
+
     <!--  barra de progreso -->
-   <div class="progess-bar">
-       <section class="progress"></section>
+    <div id="progressContainer" class="progess-container">
+       <section id="progress"class="progress"></section>
    </div>
     
    <!-- controles y los botones -->
@@ -39,10 +39,7 @@
    </section>
 
             <!-- list songs -->
-    <ul class="songs">
-        <li><a href="">Songs1</a></li>
-        <li><a href="">Songs2</a></li>
-        <li><a href="">Songs3</a></li>
+    <ul class="songs" id="songs">
     </ul>
 
     </main>   
