@@ -6,28 +6,63 @@ html, body {
 
 body {
     font-family: 'Patua One', cursive;
-    background-color: gold;
+    background-color: rgb(29, 28, 25);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /*player*/
 .player{
-    background-color: darkseagreen;
-    max-width: 900px;
     min-width: 320px;
-    color:white;
+    background-color: rgb(255, 183, 183);
     border-radius: 1rem;
+    padding: 2rem;
+    color:white;
+}
+/* title */
+.title{
+    margin-top: 0;
+    font-size: 20px;
+    text-align: center;
 }
 /*caratula*/
 .cover{
-    
-}
-/* title */
-h1{
-    font-size: 20px;
-}
-
+    width: 228px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+} 
 /* barra de progreso */
+.progress-container {
+    height: .6rem;
+    background-color: lightseagreen;
+    margin-bottom: 1rem;
+}
+.progress {
+    background-color: goldenrod;
+    width: 0;
+    height: 100%;
+}
 /*controles y los botones*/
+.controls{
+    display:flex;
+    justify-content: space-between;
+}
+.controls button{
+    background-color: transparent;
+    border: none;
+}
+.controls i{
+    font-size: 1.5rem;
+    color: gold;
+}
 /*list songs */
+.songs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.songs li{
+    margin-bottom: 2rem;/*bottom=abajo*/
+}
