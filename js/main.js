@@ -48,5 +48,15 @@ const listaCanciones =[
     album:"Una Década",
     añoLanzamiento:"1992",
     genre:"Electro"
-
+}    
 ]
+//aqui van los elementos del Dom
+const songs = document.getElementById("songs")
+const audio = document.getElementById("audio")
+const cover = document.getElementById("cover")//caratula
+const title = document.getElementById("title")
+const play = document.getElementById("play")
+const prev = document.getElementById("prev")
+const next = document.getElementById("next")
+const progress = document.getElementById("progress")
+const progressContainer = document.getElementById("progressContainer")
